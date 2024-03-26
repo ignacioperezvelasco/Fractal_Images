@@ -1,9 +1,3 @@
-/*
- * Bitmap.h
- *
- *  Created on: Jul 2, 2015
- *      Author: johnpurcell
- */
 
 #ifndef BITMAP_H_
 #define BITMAP_H_

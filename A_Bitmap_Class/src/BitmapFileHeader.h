@@ -1,9 +1,3 @@
-/*
- * BitmapFileHeader.h
- *
- *  Created on: Jun 21, 2015
- *      Author: johnpurcell
- */
 
 #ifndef BITMAPFILEHEADER_H_
 #define BITMAPFILEHEADER_H_

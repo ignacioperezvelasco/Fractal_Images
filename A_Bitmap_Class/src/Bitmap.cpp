@@ -1,9 +1,3 @@
-/*
- * Bitmap.cpp
- *
- *  Created on: Jul 2, 2015
- *      Author: johnpurcell
- */
 
 #include "Bitmap.h"
 
