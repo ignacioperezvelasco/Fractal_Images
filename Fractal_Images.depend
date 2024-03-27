@@ -1,12 +1,22 @@
 # depslib dependency file v1.0
-1711447739 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
+1711569924 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
 	"Bitmap.h"
+	"BitmapFileHeader.h"
+	"BitmapInfoHeader.h"
 
-1711447747 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.h
+1711569441 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.h
 	<string>
 	<cstdint>
+	<memory>
+	<fstream>
 
 1435947102 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/main.cpp
 	<iostream>
 	"Bitmap.h"
+
+1711447754 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapFileHeader.h
+	<cstdint>
+
+1435829498 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapInfoHeader.h
+	<cstdint>
 

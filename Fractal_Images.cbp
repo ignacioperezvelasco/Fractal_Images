@@ -31,8 +31,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="A_Bitmap_Class/Debug/src/Bitmap.d" />
-		<Unit filename="A_Bitmap_Class/Debug/src/main.d" />
 		<Unit filename="A_Bitmap_Class/src/Bitmap.cpp" />
 		<Unit filename="A_Bitmap_Class/src/Bitmap.h" />
 		<Unit filename="A_Bitmap_Class/src/BitmapFileHeader.h" />
