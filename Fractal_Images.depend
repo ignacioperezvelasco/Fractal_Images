@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1711569924 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
+1711620585 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
 	"Bitmap.h"
 	"BitmapFileHeader.h"
 	"BitmapInfoHeader.h"
@@ -10,7 +10,7 @@
 	<memory>
 	<fstream>
 
-1435947102 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/main.cpp
+1711621645 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/main.cpp
 	<iostream>
 	"Bitmap.h"
 
@@ -19,4 +19,10 @@
 
 1435829498 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapInfoHeader.h
 	<cstdint>
+
+1711622759 source:/home/ignacio/Proyectos/Fractal_Images/src/MandelBrot.cpp
+	"MandelBrot.h"
+
+1711622401 /home/ignacio/Proyectos/Fractal_Images/include/MandelBrot.h
+	<complex>
 

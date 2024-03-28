@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,6 +38,8 @@
 		<Unit filename="A_Bitmap_Class/src/BitmapFileHeader.h" />
 		<Unit filename="A_Bitmap_Class/src/BitmapInfoHeader.h" />
 		<Unit filename="A_Bitmap_Class/src/main.cpp" />
+		<Unit filename="include/MandelBrot.h" />
+		<Unit filename="src/MandelBrot.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
