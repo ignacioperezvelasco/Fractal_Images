@@ -1,28 +1,66 @@
 # depslib dependency file v1.0
-1711620585 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
+1711813512 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.cpp
+	<fstream>
 	"Bitmap.h"
-	"BitmapFileHeader.h"
 	"BitmapInfoHeader.h"
+	"BitmapFileHeader.h"
 
-1711569441 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.h
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Bitmap.h
 	<string>
 	<cstdint>
 	<memory>
-	<fstream>
 
-1711621645 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/main.cpp
+1442920806 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/main.cpp
 	<iostream>
-	"Bitmap.h"
+	"FractalCreator.h"
+	"RGB.h"
+	"Zoom.h"
 
-1711447754 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapFileHeader.h
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapFileHeader.h
 	<cstdint>
 
-1435829498 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapInfoHeader.h
+1440359386 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/BitmapInfoHeader.h
 	<cstdint>
 
-1711622759 source:/home/ignacio/Proyectos/Fractal_Images/src/MandelBrot.cpp
+1711623773 source:/home/ignacio/Proyectos/Fractal_Images/src/MandelBrot.cpp
 	"MandelBrot.h"
 
 1711622401 /home/ignacio/Proyectos/Fractal_Images/include/MandelBrot.h
 	<complex>
+
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/FractalCreator.h
+	<string>
+	<cstdint>
+	<memory>
+	<math.h>
+	<vector>
+	"Zoom.h"
+	"Mandelbrot.h"
+	"Bitmap.h"
+	"ZoomList.h"
+	"RGB.h"
+
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Zoom.h
+
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Mandelbrot.h
+
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/ZoomList.h
+	<vector>
+	<utility>
+	"Zoom.h"
+
+1711813512 /home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/RGB.h
+
+1711813425 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/FractalCreator.cpp
+	"FractalCreator.h"
+
+1711813512 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/Mandelbrot.cpp
+	<complex>
+	"Mandelbrot.h"
+
+1711813512 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/RGB.cpp
+	"RGB.h"
+
+1711813512 source:/home/ignacio/Proyectos/Fractal_Images/A_Bitmap_Class/src/ZoomList.cpp
+	"ZoomList.h"
 

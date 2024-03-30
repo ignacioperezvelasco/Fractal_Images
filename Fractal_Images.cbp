@@ -37,6 +37,15 @@
 		<Unit filename="A_Bitmap_Class/src/Bitmap.h" />
 		<Unit filename="A_Bitmap_Class/src/BitmapFileHeader.h" />
 		<Unit filename="A_Bitmap_Class/src/BitmapInfoHeader.h" />
+		<Unit filename="A_Bitmap_Class/src/FractalCreator.cpp" />
+		<Unit filename="A_Bitmap_Class/src/FractalCreator.h" />
+		<Unit filename="A_Bitmap_Class/src/Mandelbrot.cpp" />
+		<Unit filename="A_Bitmap_Class/src/Mandelbrot.h" />
+		<Unit filename="A_Bitmap_Class/src/RGB.cpp" />
+		<Unit filename="A_Bitmap_Class/src/RGB.h" />
+		<Unit filename="A_Bitmap_Class/src/Zoom.h" />
+		<Unit filename="A_Bitmap_Class/src/ZoomList.cpp" />
+		<Unit filename="A_Bitmap_Class/src/ZoomList.h" />
 		<Unit filename="A_Bitmap_Class/src/main.cpp" />
 		<Unit filename="include/MandelBrot.h" />
 		<Unit filename="src/MandelBrot.cpp" />

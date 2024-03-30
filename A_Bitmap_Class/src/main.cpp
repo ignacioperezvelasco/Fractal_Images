@@ -1,38 +1,33 @@
+//============================================================================
+// Name        : Fractal.cpp
+// Author      :
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
 #include <iostream>
-#include "Bitmap.h"
-#include "MandelBrot.h"
+
+#include "FractalCreator.h"
+#include "RGB.h"
+#include "Zoom.h"
+
 using namespace std;
 using namespace caveofprogramming;
 
 int main() {
 
-    int const WIDTH=800;
-    int const HEIGHT=600;
-	Bitmap bitmap(WIDTH, HEIGHT);
-	bitmap.setPixel(WIDTH/2,HEIGHT/2, 255, 255, 255);
+	FractalCreator fractalCreator(800, 600);
 
-    double min =999999;
-    double max=-999999;
+	fractalCreator.addRange(0.0, RGB(0, 0, 255));
+	fractalCreator.addRange(0.05, RGB(255, 99, 71));
+	fractalCreator.addRange(0.08, RGB(255, 215, 0));
+	fractalCreator.addRange(1.0, RGB(255, 255, 255));
 
-	for(int y=0;y<HEIGHT;y++)
-	{
-        for(int x=0;x<WIDTH;x++)
-        {
-            double xFractal=(x-WIDTH/2) * 2.0/WIDTH;
-            double yFractal=(y-HEIGHT/2)* 2.0/HEIGHT;
-            int iterations =MandelBrot::getIterations(xFractal,yFractal);
+	fractalCreator.addZoom(Zoom(295, 202, 0.1));
+	fractalCreator.addZoom(Zoom(312, 304, 0.1));
+	fractalCreator.run("test.bmp");
 
-            uint8_t red = (uint8_t)(256 * (double)iterations/MandelBrot::MAX_ITERATIONS);
-            bitmap.setPixel(x,y,red,0,0);
-            if(red<min) min=red;
-            if(red>max) max=red;
-
-        }
-	}
-
-	cout<<min<<", "<<max<<endl;
-
-    bitmap.write("test.bmp");
-	cout << "finished!!" << endl; // prints !!!Hello World!!!
+	cout << "Finished." << endl;
 	return 0;
 }

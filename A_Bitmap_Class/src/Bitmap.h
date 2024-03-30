@@ -1,11 +1,9 @@
-
 #ifndef BITMAP_H_
 #define BITMAP_H_
 
 #include <string>
 #include <cstdint>
 #include <memory>
-#include <fstream>
 using namespace std;
 
 namespace caveofprogramming {
@@ -15,6 +13,7 @@ private:
 	int m_width{0};
 	int m_height{0};
 	unique_ptr<uint8_t[]> m_pPixels{nullptr};
+
 
 public:
 	Bitmap(int width, int height);
